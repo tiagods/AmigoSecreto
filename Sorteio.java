@@ -16,7 +16,7 @@ public class Sorteio {
     }
     private void sortear(List<Pessoa> pessoas, Pessoa p1){
         if(pessoas.size()<3) {
-            System.out.println("O minimo de participantes deve ser 3 pessoas)
+            System.out.println("O minimo de participantes deve ser 3 pessoas");
             return;
         }
         Pessoa p2 = pessoas.get(0);
